@@ -166,3 +166,184 @@ footer {
     background-color: #2c05f2;
     float: right;
 }
+
+
+/* RESPONSIVE */ 
+
+@media all and(min-width:600px) and(max-width:1023){
+
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: -webkit-radial-gradient(top, #2c05f2, #acd8da);
+    }
+    
+    header {
+        width: 960px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    #marca {
+        width: 220px;
+        height: 70px;
+        float: left;
+    }
+    
+    #botonera_principal {
+        width: 400px;
+        height: 40px;
+        float: right;
+        margin-top: 20px;
+    }
+    
+    #botonera_principal ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    #botonera_principal ul li {
+        display: inline;
+    }
+    
+    #botonera_principal ul li a {
+        display: inline-block;
+        padding: 10px;
+        background-color: #863507;
+        color: #FFF;
+        font-weight: bold;
+        text-decoration:none ;
+    }
+    
+    #botonera_principal ul li a:hover {
+        background-color:#ea0303;
+        color: #000;
+        
+    }
+    
+    #contenido_principal {
+        width: 960px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    #imagen1 {
+        width: 350px;
+        height: 300px;
+        float: left;
+        margin-bottom: 10px;
+        background-image: url(../img/hombrecito.jpg);
+        background-size: cover;
+    }
+    
+    #presentacion {
+        width: 600px;
+        height: 300px;
+        background-color: #e7d5a5;
+        float: right;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    
+    #contenido_articulo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    
+    #texto_contenido {
+        width: 250px;
+        height: 300px;
+        background-color: #e7d5a5;
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    #contenido_segundo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+    }
+    
+    #imagen2 {
+        width: 440px;
+        height: 300px;
+        float: left;
+        margin-bottom: 10px;
+        background-image: url(../img/compudesign.jpg);
+        background-size: cover;
+    }
+    
+    #destacado {
+        width: 250px;
+        height: 300px;
+        float: right;
+        margin-bottom: 10px;
+        background-color: #bba669;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    #contenido_destacado {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    
+    #complementario {
+        width: 960px;
+        height: 180px;
+        clear: both;
+    }
+    
+    #imagen_aside {
+        width: 960px;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        width: 960px;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        background-color: #000;
+        color: #FFF;
+    }
+    
+    #datos {
+        width: 300px;
+        height: 180px;
+        float: left;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    #redes {
+         width: 350px;
+        height: 35px;
+        background-color: #2c05f2;
+        float: right;
+    }
+    
+
+}
+
+
+/* FIN DEL RESPONSIVE*/
+
