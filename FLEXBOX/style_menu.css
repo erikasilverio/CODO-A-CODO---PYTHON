@@ -1,0 +1,68 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orange;
+}
+
+.centrado{
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 52em) {
+    .centrado{
+    max-width:52em;
+}
+}
+
+
+.menu-header{
+    background-color: black;
+    padding-bottom: 2em;
+    border-bottom: 1em solid #020202;
+
+}
+
+
+/*menu navegacion */
+
+.menu-simple-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #020202;
+
+}
+
+.menu-simple-menu ul a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 6em 1em;
+    
+
+}
+
+.menu-simple-menu ul a:hover{
+    background: blanchedalmond;
+    color: rgb(8, 8, 59);
+}
+
+/* flexbox */
+
+.menu-simple-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.menu-simple-menu li {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
