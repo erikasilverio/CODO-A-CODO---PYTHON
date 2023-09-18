@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    font-family: sans-serif;
+
+}
+
+.grid{
+    width: 70%;
+    border: 5px solid #222;
+    margin: 50px auto;
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: 200px 100px 300px;
+    grid-template-rows: 300px 100px 500px 200px;
+
+
+}
+
+.grid div{
+    background-color: orange;
+    padding: 20px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
