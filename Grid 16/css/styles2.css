@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.65rem;
+}
+
+img{
+    max-width: 100%;
+
+}
+
+h2{
+    font-size: 4rem;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.entrada-blog{
+    display: inline-block;
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media ( min-width: 480px ) {
+    .tres-columnas{
+        display: grid;
+        grid-template-columns: repeat( 3 , 1fr );
+        column-gap: 1rem;
+    }
+    
+}

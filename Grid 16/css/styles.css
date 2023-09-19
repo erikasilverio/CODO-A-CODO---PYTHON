@@ -16,8 +16,51 @@ body{
     margin: 50px auto;
     font-size: 50px;
     display: grid;
+    /*
     grid-template-columns: 200px 100px 300px;
     grid-template-rows: 300px 100px 500px 200px;
+    */
+
+    /*grid-template-columns: 1fr 3fr 1fr; - > colunas
+    grid-template-rows: 1fr 1fr 1fr;  -> filas 
+    */
+
+    /*grid-template: 1fr 1fr 1fr / 1fr 3fr 1fr;*/
+
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 20px; /* propriedad obsoleta*/
+
+
+}
+
+.grid .item{
+
+    background-color: blueviolet;
+    /*
+    METODO LARGO
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    */
+    
+        
+    /*
+    ATALHO
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    */
+
+    /*
+    METODO CURTO
+    grid-area: 2 / 1 / 3 / 5 ;
+    */
+
+    
+    grid-column: span 3;
+    grid-row: span 3;
+    
 
 
 }
