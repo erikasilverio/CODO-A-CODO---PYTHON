@@ -1,7 +1,7 @@
-// var nombre = "Erika"
-// var edad = 36 
+//var nombre = "Erika"
+//var edad = 36 
 
-// console.log("Nombre: ", nombre,"Edad:", edad)
+//console.log("Nombre: ", nombre, " | | Edad: " , edad)
 
 
 /*
@@ -46,10 +46,6 @@ console.log('la suma es' , suma)
 */
 
 
-
-
-}
-
 /*hacer um dicionario de 10 palabras
 gato - cat
 casa - house
@@ -93,6 +89,8 @@ switch (valor) {
 
        // 11 - 22 - 23 - 44 <<10 veces >>
 
+       
+       /*
        let serie = 11
        let i = 1
        while ( i <= 10 ) {
@@ -102,4 +100,4 @@ switch (valor) {
         i++
         serie += 11
         
-       }
+       } */
