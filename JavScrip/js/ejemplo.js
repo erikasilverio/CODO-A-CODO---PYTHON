@@ -101,3 +101,40 @@ switch (valor) {
         serie += 11
         
        } */
+
+
+       // Class 2 //
+
+
+       /*
+
+
+       var nombre, edad, sexo, esSoltero
+       nombre = 'Juan'// cadena de texto
+       edad = 30
+       sexo = 'M'
+       esSoltero = false
+       console.log(nombre + "|" + edad + "|" + sexo + "|" + esSoltero)
+
+
+       const PI = 3.1416
+       // PI = 3
+       let primo = 3
+       console.log("PI  vale : " , PI)
+       console.log("El primo vale : " , primo)
+
+       
+       let nombre = prompt("Ingrese su nombre")
+       let edad = prompt("Ingrese su edad")
+
+       let data = "Nombre: " + nombre + "|| Edad: " + edad
+       alert(data)
+
+
+
+       */
+
+
+
+
+
